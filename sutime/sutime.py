@@ -27,10 +27,10 @@ class SUTime(object):
     """
 
     _required_jars = {
-        'stanford-corenlp-3.6.0-models.jar',
-        'stanford-corenlp-3.6.0.jar',
+        'stanford-corenlp-3.7.0-models.jar',
+        'stanford-corenlp-3.7.0.jar',
         'gson-2.7.jar',
-        'slf4j-simple-1.7.21.jar'
+        'slf4j-simple.jar'
     }
 
     def __init__(self, jars=[], jvm_started=False, mark_time_ranges=False, include_range=False):
