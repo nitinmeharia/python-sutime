@@ -30,7 +30,7 @@ class SUTime(object):
         'stanford-corenlp-3.8.0-models.jar',
         'stanford-corenlp-3.8.0.jar',
         'gson-2.7.jar',
-        'slf4j-simple.jar'
+        'slf4j-simple-1.7.21.jar'
     }
 
     def __init__(self, jars=[], jvm_started=False, mark_time_ranges=False, include_range=False):
