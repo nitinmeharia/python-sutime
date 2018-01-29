@@ -27,8 +27,8 @@ class SUTime(object):
     """
 
     _required_jars = {
-        'stanford-corenlp-3.7.0-models.jar',
-        'stanford-corenlp-3.7.0.jar',
+        'stanford-corenlp-3.8.0-models.jar',
+        'stanford-corenlp-3.8.0.jar',
         'gson-2.7.jar',
         'slf4j-simple.jar'
     }
